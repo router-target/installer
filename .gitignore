@@ -1,0 +1,5 @@
+textual
+.vscode/local-history
+.venv
+__pycache__/
+*.pyc

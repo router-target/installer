@@ -1,0 +1,29 @@
+[project]
+name = "installer"
+version = "0.1.0"
+description = "安装脚本"
+authors = [
+	{"name"= "GongT", "email"= "admin@gongt.me"}
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry]
+version = "0.1.0"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10 <4.0"
+textual-dev = "^1.7.0"
+textual = "^3.2.0"
+textual-fspicker = "^0.4.1"
+pyyaml = "^6.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+vermin = "^1.6.0"
+httpx = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
