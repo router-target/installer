@@ -59,6 +59,7 @@ def import_one(file: Path):
                 print(
                     f"警告: 文件中有一个名为 Widget 的类, 应该继承 StepWidget\n  at {file}"
                 )
+                continue
             if name == "StepWidget":
                 continue
 
